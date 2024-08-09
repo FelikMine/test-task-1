@@ -10,15 +10,10 @@ hide_menu.addEventListener("click", closeNav);
 function openNav() {
     document.querySelector("aside")
         .style.width = "300px";
-    document.getElementById("contentArea")
-        .style.marginLeft = "300px";
 }
 
 function closeNav() {
     // aside.style.width = "0";
     console.log(aside.children);
-    aside.style.transition = "opacity 1s"
-    aside.style.opacity = "0";
-    // document.getElementById("contentArea")
-    //     .style.marginLeft = "0";
+    aside.style.transition = "opacity 1s";
 }
