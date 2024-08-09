@@ -1,0 +1,135 @@
+@font-face {
+    font-family: FuturaPT;
+    src: url('/Fonts/FuturaPT-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: FuturaPT;
+    src: url('/Fonts/FuturaPT-Light.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: FuturaPT;
+    src: url('/Fonts/FuturaPT-Medium.woff2') format('woff2'),;
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: FuturaPT;
+    src: url('Fonts/FuturaPT-Book.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background: rgba(244, 244, 244, 1);
+
+}
+.header {
+    width: 1920px;
+    height: 79px;
+    background: rgba(255, 255, 255, 1);
+}
+.tie {
+    margin-top: 25.66px;
+    margin-left: 15px;
+}
+.ver {
+    margin-top: 14px;
+    margin-left: 8.17px;
+    position: absolute;
+}
+
+main {
+    display: flex;
+    align-items: baseline
+}
+aside {
+    margin-top: 30px;
+    height: 446px;
+    width: 290px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+aside a {
+    outline: none;
+    text-decoration: none;
+    font-family: FuturaPT;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21.79px;
+    text-align: left;
+    color: rgba(23, 33, 57, 1);
+    padding-left: 15px;
+    /* margin-right: 164.5px; */
+    /* margin-bottom: 20px; */
+    /* margin-top: 20px; */
+    position: relative;
+    background-clip:  border-box;
+}
+aside a:hover {
+    background: rgba(23, 33, 57, 1);
+    color: rgba(244, 244, 244, 1);
+}
+aside p svg {
+    margin-right: 15.5px;
+    margin-left: 15.5px;
+    vertical-align: -1px
+}
+hr {
+    border-top: rgba(244, 244, 244, 1);
+    border-width: 1px;
+    /* margin-top: 20px; */
+    width: 100%;
+    margin: 0;
+}
+.hide-menu {
+    color: rgba(255, 102, 0, 1);
+    padding-left: 70.5px;
+    box-sizing: border-box;
+    padding-top: 21px;
+    padding-bottom: 24px;
+}
+h1 {
+    font-family: FuturaPT;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin-left: 20px;
+}
+.buttons {
+    display: flex;
+    margin-left: 30px
+}
+.buttons button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    height: 37px;
+    padding: 9.5px 30px 9.5px 30px;
+    /* min-width: 130px; */
+    font-family: FuturaPT;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.95px;
+    text-align: center;
+    width: 165px;
+}
+.buttons > :last-child{
+    width: 130px;
+}
+.buttons > :first-child{
+    width: 140px;
+}
+.buttons button:hover {
+    background-color: rgba(23, 33, 57, 1);
+    color:rgba(255, 255, 255, 1);
+}
