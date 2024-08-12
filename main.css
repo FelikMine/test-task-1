@@ -55,8 +55,10 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    overflow: hidden;
 }
 aside a {
+    white-space: nowrap;
     outline: none;
     text-decoration: none;
     font-family: FuturaPT;
@@ -132,4 +134,12 @@ h1 {
 .buttons button:hover {
     background-color: rgba(23, 33, 57, 1);
     color:rgba(255, 255, 255, 1);
+}
+
+#contentArea span {
+    transition: margin-left 0.5s;
+    padding: 16px;
+    position: relative;
+    top: -75px;
+    color: rgba(23, 33, 57, 1);
 }
