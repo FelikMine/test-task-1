@@ -16,4 +16,5 @@ function closeNav() {
     // aside.style.width = "0";
     console.log(aside.children);
     aside.style.transition = "opacity 1s";
+    aside.style.opacity = 0;
 }
